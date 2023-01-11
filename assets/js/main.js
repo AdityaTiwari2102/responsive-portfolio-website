@@ -206,3 +206,46 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== SCROLL REVEAL ANIMATION ====================*/
+const sr = ScrollReveal({
+  origin: 'top',
+  distance: '80px',
+  duration: 2000,
+  reset: false
+})
+
+sr.reveal('.section__title, .section__subtitle', {})
+
+// SRCOLL HOME
+sr.reveal('.home__title', {delay: 200})
+sr.reveal('.home__subtitle, .home__description', {delay: 300})
+sr.reveal('.home__img, .home__scroll, .home__social, .home__button', {delay: 400})
+
+// SCROLL ABOUT
+sr.reveal('.about__description', {delay: 200})
+sr.reveal('.about__info', {delay: 300})
+sr.reveal('.about__img, .about__buttons', {delay: 400})
+
+// SCROLL SKILLS
+sr.reveal('.skills__header', {delay: 200})
+sr.reveal('.skills__subtitle, .skills__arrow', {interval: 150})
+sr.reveal('.skills__data', {interval: 200})
+
+// SCROLL QUALIFICATION
+sr.reveal('.qualification__tabs', {delay: 400})
+
+// SCROLL SERVICES
+sr.reveal('.services__icon', {delay: 200})
+sr.reveal('.services__title', {delay: 300})
+sr.reveal('.services__button', {delay: 400})
+
+// SCROLL PROJECT
+sr.reveal('.project__title, .project__img', {delay: 200})
+sr.reveal('.project__description', {delay: 300})
+sr.reveal('.button--white', {delay: 400})
+
+// SCROLL CONTACT
+sr.reveal('.contact__content', {interval: 200})
+sr.reveal('.contact__title, .contact__subtitle, .contact__icon', {interval: 100})
+sr.reveal('.send__button', {delay: 200})
