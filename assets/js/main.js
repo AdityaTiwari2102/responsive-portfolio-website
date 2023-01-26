@@ -227,11 +227,6 @@ sr.reveal('.about__description', {delay: 200})
 sr.reveal('.about__info', {delay: 300})
 sr.reveal('.about__img, .about__buttons', {delay: 400})
 
-// SCROLL SKILLS
-sr.reveal('.skills__header', {delay: 200})
-sr.reveal('.skills__subtitle, .skills__arrow', {interval: 150})
-sr.reveal('.skills__data', {interval: 200})
-
 // SCROLL QUALIFICATION
 sr.reveal('.qualification__tabs', {delay: 400})
 
