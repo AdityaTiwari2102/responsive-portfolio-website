@@ -1136,7 +1136,8 @@ textarea.contact__input {
     column-gap: 5rem;
   }
   .about__img {
-    width: 350px
+    width: 350px;
+    align-self: flex-start;
   }
   .about__description {
     text-align: initial;
