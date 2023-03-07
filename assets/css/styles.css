@@ -872,6 +872,10 @@ img {
   padding: .25rem .5rem .5rem 0;
 }
 
+textarea.contact__input {
+  resize: vertical;
+}
+
 /*==================== FOOTER ====================*/
 .footer {
   padding-top: 2rem;
@@ -1132,7 +1136,8 @@ img {
     column-gap: 5rem;
   }
   .about__img {
-    width: 350px
+    width: 350px;
+    align-self: flex-start;
   }
   .about__description {
     text-align: initial;
@@ -1188,9 +1193,6 @@ img {
     grid-template-columns: 1fr max-content;
     column-gap: 3rem;
   }
-  .project__data {
-    padding-top: .8rem;
-  }
 
   .footer__container {
     grid-template-columns: repeat(3, 1fr);
@@ -1201,6 +1203,7 @@ img {
   .footer__links {
     flex-direction: row;
     column-gap: 2rem;
+    justify-self: flex-end;
   }
   .footer__socials {
     justify-self: flex-end;
